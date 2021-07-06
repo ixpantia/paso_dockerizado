@@ -1,8 +1,20 @@
 # Paso dockerizado
 
-Ejemplo de un paso dentro de un dataducto que corre en docker.
+Ejemplo de un paso dentro de un dataducto que corre en Docker.
 
-# Pasos para reproducir el ejemplo
+# Ejemplo de marmotas
+
+## Contexto
+
+![](img/marmota.jpg)
+
+El presente ejercicio levanta un contenedor con R en su version 4.1.0 y corre
+un script que cuenta las marmotas por cada tipo de especie, los datos de estas
+marmotas se encuentran en el archivo `marmotas.csv`.
+
+Estos datos son leídos desde el computador personal y los resultados son 
+escritos al mismo computador usando un `volumen` de Docker, sin necesidad de 
+copiarlos al contenedor como tal.
 
 ## Requisitos
 
